@@ -1,8 +1,5 @@
 import './Nav.css';
 function Nav() {
-    function refreshpage(){
-        window.location.reload(true);
-    }
     return (
         <div className="Nav">
             <p>BAVISHYA</p>
