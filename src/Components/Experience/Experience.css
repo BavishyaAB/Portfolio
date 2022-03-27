@@ -1,0 +1,11 @@
+.Experience{
+    position: relative;
+    top:150px;
+}
+.Experience hr{
+    margin-left:25px;
+    margin-right:25px;
+}
+.title{
+    text-align: center;
+}

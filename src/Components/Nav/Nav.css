@@ -1,0 +1,48 @@
+.Nav{
+    position: fixed;
+    width:100%;
+    height:10%;
+    animation-name: Nav;
+    animation-duration: 2s;
+    background-color: black;
+    z-index: 2;
+}
+.Nav p{
+    position: relative;
+    display: inline-flex;
+    left:0px;
+    margin-top:15px;
+    font-size: 1.2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+.Navlist{
+    position: relative;
+    display:inline-flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content:flex-end;
+    width:50%;
+    margin-left: 370px;
+}
+.Navlist li{
+    list-style: none;
+    padding-left:25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    color: white;
+}
+.Navlist li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+}
+.Navlist a{
+    text-decoration:none;
+    color: white;
+}
+@keyframes Nav {
+    0%   {top:0px;}
+    50%  {top:5px;}
+  }
