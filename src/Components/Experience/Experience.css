@@ -1,6 +1,8 @@
 .Experience{
-    position: relative;
-    top:150px;
+    position: absolute;
+    top:1170px;
+    height:100%;
+    width:100%;
 }
 .Experience hr{
     margin-left:25px;

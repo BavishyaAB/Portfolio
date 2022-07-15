@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  height:620px;
+  position:absolute;
+  height:100%;
   width:100%;
   background-image: linear-gradient(to bottom,#DCFFFB,#C1E7E3,#A4D8D8);
 }
