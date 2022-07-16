@@ -23,10 +23,10 @@ function Project () {
                     </div>
                     <div className='col-4'>
                         <div className='card h-100'>
-                            <a href='https://user-portfolios.netlify.app'>
+                            <a href='https://user-potfolio-management.netlify.app/'>
                                 <img src={usermanagement}className='card-img-top' alt='usermanagement'></img>
                             </a>
-                            <div className='card-body'><p className='card-text'>User Portfolios Management - React Application</p></div>
+                            <div className='card-body'><p className='card-text'>User Portfolios Management - MERN Application</p></div>
                         </div>
                     </div>
                     <div className='col-4'>
